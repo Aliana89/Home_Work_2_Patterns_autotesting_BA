@@ -3,6 +3,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.Assert.assertNotNull;
 
+//тут название файла ParameterizedTest отличается от названия класса ParameterizedTests
 class ParameterizedTests {
 
     @ParameterizedTest
