@@ -31,7 +31,7 @@ class ComponentTest {
         Document anotherDocument = new Document("Another Document");
 
         assertDoesNotThrow(() -> {
-            folder.removeComponent(anotherDocument);  // Это не должно выбрасывать исключений
+            folder.removeComponent(anotherDocument);  
         });
     }
 
@@ -39,7 +39,7 @@ class ComponentTest {
     void testDisplayEmptyFolder() {
         // Негативный тест: Отображение пустой папки
         assertDoesNotThrow(() -> {
-            folder.display();  // Это не должно выбрасывать исключения
+            folder.display();  
         });
     }
 
