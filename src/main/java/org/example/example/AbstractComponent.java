@@ -1,5 +1,5 @@
 
-package com.example;
+package org.example.example;
 
 public abstract class AbstractComponent implements Component {
     protected String name;

@@ -1,4 +1,4 @@
-package com.example;
+package org.example.example;
 
 public class Document implements Component {
     private String name;
